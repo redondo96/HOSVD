@@ -6,10 +6,14 @@ surf(X,Y,Space,'EdgeColor','none')
 hold on
 plot3(x1,y1,s1,'.r','markersize',10)
 
+legend('Function','Initial samples','Location','best')
+
 if nargin == 9
     
     hold on
     plot3(x2,y2,s2,'.g','markersize',10)
+
+    legend('Function','Pivots' ,'Proposed samples','Location','best')
 
 end
 

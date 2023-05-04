@@ -8,5 +8,7 @@ hold on
 mesh(X,Y,z)
 hold off
 
+legend('Samples','Reconstructed function','Location','best')
+
 end
 
